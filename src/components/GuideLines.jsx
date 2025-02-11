@@ -1,7 +1,7 @@
 import React from "react";
-import job1 from "../assets/job-01.jpg";
-import job2 from "../assets/job-02.jpg";
-import job3 from "../assets/job-03.jpg";
+import job1 from "../assets/Job-01.jpg";
+import job2 from "../assets/Job-02.jpg";
+import job3 from "../assets/Job-03.jpg";
 
 const GuideLines = () => {
 
