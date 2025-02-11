@@ -250,7 +250,7 @@ const PostJob = () => {
           <div className="relative w-4/12 h-auto shadow ">
             <img
               className="object-cover object-center rounded-l-md h-full"
-              src={posJobImage}
+              src="/public/post-job.jpg"
               alt="image post job"
             />
             <div ></div>
