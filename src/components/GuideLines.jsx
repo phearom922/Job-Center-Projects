@@ -157,22 +157,22 @@ const GuideLines = () => {
                 className="object-cover object-center w-full max-h-full"
               />
             </div>
-            {/* <div className="flex gap-2">
+            <div className="flex gap-2">
               <div className="w-full rounded-md overflow-hidden">
                 <img
-                  src="public/job-02.jpg"
+                  src={job2}
                   alt="job2"
                   className="object-cover object-center w-full max-h-full"
                 />
               </div>
               <div className="w-full rounded-md overflow-hidden">
                 <img
-                  src="public/job-03.jpg"
+                  src={job3}
                   alt="job3"
                   className="object-cover object-center w-full max-h-full"
                 />
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
