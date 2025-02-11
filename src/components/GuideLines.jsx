@@ -149,7 +149,7 @@ const GuideLines = () => {
           <div className="max-w-2xl space-y-2">
             <div className="w-full rounded-md overflow-hidden">
               <img
-                src={job1}
+                src={`${job1}`}
                 alt="guideline"
                 className="object-cover object-center w-full max-h-full"
               />
@@ -157,14 +157,14 @@ const GuideLines = () => {
             <div className="flex gap-2">
               <div className="w-full rounded-md overflow-hidden">
                 <img
-                  src={job2}
+                  src={`${job2}`}
                   alt="job2"
                   className="object-cover object-center w-full max-h-full"
                 />
               </div>
               <div className="w-full rounded-md overflow-hidden">
                 <img
-                  src={job3}
+                  src={`${job3}`}
                   alt="job3"
                   className="object-cover object-center w-full max-h-full"
                 />
