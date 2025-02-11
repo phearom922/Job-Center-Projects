@@ -1,9 +1,12 @@
 import React from "react";
-// import job1 from "../assets/job-01.jpg"
-// import job2 from "../assets/job-02.jpg"
-// import job3 from "../assets/job-03.jpg"
+import job1 from "../assets/job-01.jpg";
+import job2 from "../assets/job-02.jpg";
+import job3 from "../assets/job-03.jpg";
 
 const GuideLines = () => {
+
+
+
   return (
     <div className="py-12 2xl:w-8/12 2xl:mx-auto">
       <div className="space-y-10">
@@ -149,12 +152,12 @@ const GuideLines = () => {
           <div className="max-w-2xl space-y-2">
             <div className="w-full rounded-md overflow-hidden">
               <img
-                src="public/job-01.jpg"
+                src={job1}
                 alt="guideline"
                 className="object-cover object-center w-full max-h-full"
               />
             </div>
-            <div className="flex gap-2">
+            {/* <div className="flex gap-2">
               <div className="w-full rounded-md overflow-hidden">
                 <img
                   src="public/job-02.jpg"
@@ -169,7 +172,7 @@ const GuideLines = () => {
                   className="object-cover object-center w-full max-h-full"
                 />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
