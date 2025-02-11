@@ -6,7 +6,7 @@ import {
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 
-// import contactImage from "/public/contactUs.jpg"
+import contactImage from "../assets/contactUs.jpg"
 
 
 const Contact = () => {
@@ -30,7 +30,7 @@ const Contact = () => {
         <div className="flex items-center  w-full">
           <img
             className="rounded-md overflow-hidden"
-            src="/public/contactUs.jpg"
+            src={contactImage}
             alt=""
           />
         </div>

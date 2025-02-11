@@ -22,8 +22,8 @@ const JobCard = (props) => {
                 <div className="relative">
                   <img
                     className="w-full h-52 rounded-t object-cover object-center"
-                    // src={`../src/assets/${job.photoUrls[0]}`}
-                    src={`/public/${job.photoUrls[0]}`}
+                    src={`../src/assets/${job.photoUrls[0]}`}
+                    // src={`/public/${job.photoUrls[0]}`}
                     alt="photo"
                   />
                   {job.featured && (

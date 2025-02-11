@@ -3,7 +3,7 @@ import PostJobStep from "../components/PostJobStep";
 import CreateAJob from "../components/CreateAJob";
 import Description from "../components/Description";
 import Media from "../components/Media";
-import posJobImage from "/public/post-job.jpg"
+import posJobImage from "../assets/post-job.jpg"
 import { v4 as uuidv4 } from "uuid";
 
 import Detail from "../components/Detail";
@@ -250,7 +250,7 @@ const PostJob = () => {
           <div className="relative w-4/12 h-auto shadow ">
             <img
               className="object-cover object-center rounded-l-md h-full"
-              src="/public/post-job.jpg"
+              src={posJobImage}
               alt="image post job"
             />
             <div ></div>

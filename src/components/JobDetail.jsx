@@ -131,7 +131,7 @@ const JobDetail = (props) => {
           <div>
             <img
               className="w-14 h-14 border rounded-full object-cover"
-              src={`/public/${job.logoUrl}`}
+              src={`../src/assets/${job.logoUrl}`}
               alt="Logo Company"
             />
           </div>
