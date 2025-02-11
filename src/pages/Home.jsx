@@ -49,7 +49,7 @@ const Home = () => {
           </Link>
         </div>
 
-        <JobCard jobs={jobs} />
+        {/* <JobCard jobs={jobs} /> */}
       
       </div>
 
